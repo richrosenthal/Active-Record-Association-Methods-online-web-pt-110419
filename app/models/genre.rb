@@ -15,7 +15,5 @@ class Genre < ActiveRecord::Base
     self.name.collet do |t| 
       t.name 
     end 
-    
-      
   end
 end
