@@ -11,8 +11,7 @@ class Genre < ActiveRecord::Base
   end
 
   def all_artist_names
-    all = []
-    self.name.collet do |t| 
+    self.artists.collet do |t| 
       t.name 
     end 
   end
